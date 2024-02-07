@@ -1,10 +1,12 @@
 #EXECUTIVE PROGRAMS
 
+all : wxGame shellGame
+
 wxGame : wxMinesweeperApp.o wxMinesweeperFrame.o wxMinesweeper.o wxBoxe.o abstractMinesweeper.o abstractBoxe.o
-		g++ wxMinesweeperApp.o wxMinesweeperFrame.o wxMinesweeper.o wxBoxe.o abstractMinesweeper.o abstractBoxe.o -o wxGame `wx-config --cxxflags` `wx-config --libs`
+		g++ wxMinesweeperApp.o wxMinesweeperFrame.o wxMinesweeper.o wxBoxe.o abstractMinesweeper.o abstractBoxe.o -o ../wxGame `wx-config --cxxflags` `wx-config --libs`
 
 shellGame : shellGame.o shellMinesweeper.o abstractMinesweeper.o abstractBoxe.o shellBoxe.o
-		g++ shellGame.o shellMinesweeper.o abstractMinesweeper.o abstractBoxe.o shellBoxe.o -o shellGame
+		g++ shellGame.o shellMinesweeper.o abstractMinesweeper.o abstractBoxe.o shellBoxe.o -o ../shellGame
 
 #ABSTRACT CLASS
 
@@ -44,4 +46,4 @@ wxBoxe.o : wxBoxe.cpp wxBoxe.hpp
 #CLEAN
 
 clean :
-		rm *.o shellGame wxGame
+		rm *.o ../shellGame ../wxGame
