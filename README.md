@@ -1,4 +1,4 @@
-# MINESWEEPER GAME IN CPP #
+# Minesweeper Game in C++ #
 
 
 
