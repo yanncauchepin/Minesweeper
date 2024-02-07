@@ -1,4 +1,8 @@
-## TO DO LIST ##
+# MINESWEEPER GAME IN CPP #
 
-- [ ] Add a summary in readme.
-- [ ] Complete a to do list.
+
+
+## To do list ##
+
+- [ ] Add a description in readme.
+- [ ] Resolve, especially wxGame.
