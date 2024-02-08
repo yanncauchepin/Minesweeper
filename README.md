@@ -55,11 +55,14 @@ To configure parameters in the minesweeper game on shell, the user have to infor
 - ***Height*** : Integer value which indicates the height of the minesweeper game.
 - ***Width**** : Integer value which indicates the width of the minesweeper game.
 - ***Total number of mines*** : Integer value which indicates the total number of mines.
-Then, the user enter in iterative monitor until the end of the game. 
+
+Then, the user enter in iterative monitor until the end of the game.
+
 During the iterative monitor, the user have to iteratively insert :
 - ***Height*** : Integer value which indicates the height coordinate of the case.
 - ***Width**** : Integer value which indicates the width coordinate of the case.
 - ***Action*** : Boolean 0 or 1 to respectively indicate whether this action is to discover the case or flag it.
+
 The end of the game comes either with a victory condition, a failure condition or by insert the value ***Exit***, at any moment in the iterative monitor, to exit the game.
 
 ### wxGame ###
