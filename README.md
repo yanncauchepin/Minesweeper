@@ -20,7 +20,7 @@ sudo apt-get install libwxgtk3.0-dev
 ```bash
 cd Code
 ```
-2. Compile the minesweeper game on both shell and graphical user interface by running ***make all***. Run ***make shellGame*** to just compile the minesweeper on shell. Run ***make wxGame*** to just compile the minesweeper on graphical user interface. 
+2. Compile the minesweeper game on both shell and graphical user interface by running ***make all***. Run ***make shellGame*** to just compile the minesweeper on shell. Run ***make wxGame*** to just compile the minesweeper on graphical user interface.
 ```bash
 make all
 ```
@@ -49,7 +49,9 @@ cd Code
 make clean
 ```
 
-### ShellGame Monitor ###
+## Monitor ##
+
+### ShellGame ###
 
 To configure parameters for the minesweeper game in shell, the user have to inform some piece of information. In chronological order, the user have to provide :
 - ***Height*** : Integer value which indicates the height of the minesweeper game.
@@ -77,7 +79,7 @@ The end of the game comes either with a victory condition, a failure condition o
 - [ ] Test the well functioning of the program shellGame :
     - [ ] Height, Width and TotalNumberOfMines : Test the bounds of valid values.
     - [ ] Height, Width and Choice : Test the bounds of valid values.
-    - [ ] Test conditions of victory or failure. 
+    - [ ] Test conditions of victory or failure.
 - [ ] Edit iterative monitor to include the choice mine or flag when the user insert coordinates.
 - [ ] Translate monitor of shellGame in english.
 
@@ -85,4 +87,3 @@ The end of the game comes either with a victory condition, a failure condition o
 
 - [ ] Add a description monitor game in the README file.
 - [ ] Check if there is not an error when the user select a box and the program scan the wrong case. Especially when the minesweeper is not squared.
-
