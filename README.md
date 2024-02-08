@@ -41,11 +41,12 @@ cd ..
 ./wxGame
 ```
 
-(Optional) 5. Clean the repository by running make clean in the Code directory.
+*(Optional)* 5. Clean the repository by running ***make clean*** in the **Code** directory.
 
+```{bash}
 cd Code
 make clean
-
+```
 
 ### ShellGame ###
 
@@ -53,5 +54,5 @@ make clean
 
 ## To do list ##
 
-- [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
 - [ ] Test the well functioning of the two programs.
+- [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
