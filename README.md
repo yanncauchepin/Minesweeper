@@ -51,7 +51,7 @@ make clean
 
 ### ShellGame Monitor ###
 
-To configure parameters in the minesweeper game on shell, the user have to inform some piece of information. In chronological order, the user have to provide :
+To configure parameters for the minesweeper game in shell, the user have to inform some piece of information. In chronological order, the user have to provide :
 - ***Height*** : Integer value which indicates the height of the minesweeper game.
 - ***Width**** : Integer value which indicates the width of the minesweeper game.
 - ***Total number of mines*** : Integer value which indicates the total number of mines.
@@ -70,6 +70,7 @@ The end of the game comes either with a victory condition, a failure condition o
 ## To do list ##
 
 - [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
+- [ ] Explain the victory condition and failure condition in the usage README file.
 
 ### shellGame ###
 
@@ -82,6 +83,6 @@ The end of the game comes either with a victory condition, a failure condition o
 
 ### wxGame ###
 
-- [ ] Add a description monitor game in README fil.
+- [ ] Add a description monitor game in the README file.
 - [ ] Check if there is not an error when the user select a box and the program scan the wrong case. Especially when the minesweeper is not squared.
 
