@@ -29,7 +29,7 @@ make shellGame
 ```bash
 make wxGame
 ```
-3. The compiled program(s) ***shellGame*** or/and ***wxGame*** are now located in the parent repository.
+3. The compiled program(s) ***shellGame*** or/and ***wxGame*** is/are now located in the parent repository.
 ```bash
 cd ..
 ```
