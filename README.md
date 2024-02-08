@@ -38,13 +38,13 @@ cd ..
 ```bash
 ./shellGame
 ```
-```{bash}
+```bash
 ./wxGame
 ```
 
 *(Optional)* 5. Clean the repository by running ***make clean*** in the **Code** directory.
 
-```{bash}
+```bash
 cd Code
 make clean
 ```
