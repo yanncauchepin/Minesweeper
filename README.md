@@ -69,7 +69,7 @@ The end of the game comes either with a victory condition, a failure condition o
 
 ### wxGame ###
 
-This program run a ***wxWidgets application*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
+This program run a ***wxWidgets Application*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
 
 To  play the game, the user have to click left on boxes to discover each one of them. Once a mine can be identified, the user could click right on a box to flag it. Therefore, this chosen box can no longer be discovered until the user click right again on this same box to remove the flag. An indicator of the amount of identified mines is indicated at the bottom of the application.
 
