@@ -78,7 +78,7 @@ This program also handle victory and failure conditions.
 Otherwise, the user can access to various menu such as :
 - ***Game>Restart*** or *Crtl+R* to restart the minesweeper game with the same configuration.
 - ***Game>initialized*** or *Crtl+I* to restart a minesweeper game by configure the height, the width and the total number of mines.
-- ***Game>SetSpacing*** or *Crtl+S* to modify the display of the current minesweeper game by edit the indicating the spacing desired between boxes in both height and width.
+- ***Game>SetSpacing*** or *Crtl+S* to modify the display of the current minesweeper game by indicating the spacing desired between boxes in both height and width.
 - ***Game>Quit*** or *Crtl+Q* to quit the minesweeper application.
 - ***AI>Resolve*** or *Crtl+A* to bring help to the gamer and iteratively resolve the minesweeper game. Not implemented currently.
 - ***Info>About*** to show a simple piece of information about this minesweeper game.
