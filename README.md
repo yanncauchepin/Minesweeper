@@ -9,7 +9,7 @@ Before running this code, ensure you have the following :
 - ***g++*** compiler installed on your system.
 - ***wxWidgets*** installed on your system.
 
-Sur ***Ubuntu*** :
+Pour installer ***wxWidgets*** Sur **Ubuntu** :
 ```bash
 sudo apt-get install libwxgtk3.0-dev
 ```
@@ -55,7 +55,7 @@ make clean
 
 To configure parameters for the minesweeper game in shell, the user have to inform some piece of information. In chronological order, the user have to provide :
 - ***Height*** : Integer value which indicates the height of the minesweeper game.
-- ***Width**** : Integer value which indicates the width of the minesweeper game.
+- ***Width*** : Integer value which indicates the width of the minesweeper game.
 - ***Total number of mines*** : Integer value which indicates the total number of mines.
 
 Then, the user enter in iterative monitor until the end of the game.
@@ -69,6 +69,20 @@ The end of the game comes either with a victory condition, a failure condition o
 
 ### wxGame ###
 
+This program run a ***wxWidgets application*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
+
+To  play the game, the user have to click left on boxes to discover each one of them. Once a mine can be identified, the user could click right on a box to flag it. Therefore, this chosen box can no longer be discovered until the user click right again on this same box to remove the flag. An indicator of the amount of identified mines is indicated at the bottom of the application.
+
+This program also handle victory and failure conditions.
+
+Otherwise, the user can access to various menu such as :
+- ***Game>Restart*** or *Crtl+R* to restart the minesweeper game with the same configuration.
+- ***Game>initialized*** or *Crtl+I* to restart a minesweeper game by configure the height, the width and the total number of mines.
+- ***Game>SetSpacing*** or *Crtl+S* to modify the display of the current minesweeper game by edit the indicating the spacing desired between boxes in both height and width.
+- ***Game>Quit*** or *Crtl+Q* to quit the minesweeper application.
+- ***AI>Resolve*** or *Crtl+A* to bring help to the gamer and iteratively resolve the minesweeper game. Not implemented currently.
+- ***Info>About*** to show a simple piece of information about this minesweeper game.
+
 ## To do list ##
 
 - [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
@@ -80,10 +94,11 @@ The end of the game comes either with a victory condition, a failure condition o
     - [ ] Height, Width and TotalNumberOfMines : Test the bounds of valid values.
     - [ ] Height, Width and Choice : Test the bounds of valid values.
     - [ ] Test conditions of victory or failure.
-- [ ] Edit iterative monitor to include the choice mine or flag when the user insert coordinates.
+- [ ] Edit iterative monitor to include the choice mine or flag when the user insert coordinates, and handle the value 'Exit' to stop the program.
 - [ ] Translate monitor of shellGame in english.
 
 ### wxGame ###
 
-- [ ] Add a description monitor game in the README file.
-- [ ] Check if there is not an error when the user select a box and the program scan the wrong case. Especially when the minesweeper is not squared.
+- [ ] Test the program with various configuration and other means to identify errors to correct.
+- [ ] Correct case where value informed to configure a minesweeper are wrong. Add print in case of bounds.
+- [ ] Check if there is not an error when the user select a box and the program scan the wrong box. Especially when the minesweeper is not squared.
