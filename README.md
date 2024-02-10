@@ -1,6 +1,6 @@
 # Minesweeper Game in C++ #
 
-This code implements a minesweeper game in shell and also in a graphical user interface ***wxWidgets***.
+This code implements a minesweeper game both in shell and with the graphical user interface ***wxWidgets***.
 
 ## Prerequisites ##
 
@@ -86,7 +86,7 @@ Otherwise, the user can access to various menu such as :
 ## To do list ##
 
 - [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
-- [ ] Explain the victory condition and failure condition in the usage README file.
+- [ ] Explain the victory condition and failure condition in the monitor README file.
 
 ### shellGame ###
 
