@@ -9,7 +9,7 @@ Before running this code, ensure you have the following :
 - ***g++*** compiler installed on your system.
 - ***wxWidgets*** installed on your system.
 
-Pour installer ***wxWidgets*** Sur **Ubuntu** :
+To install ***wxWidgets*** on **Ubuntu** :
 ```bash
 sudo apt-get install libwxgtk3.0-dev
 ```
