@@ -103,3 +103,4 @@ Otherwise, the user can access to various menu such as :
 - [ ] Test the program with various configuration and other means to identify errors to correct.
 - [ ] Correct case where value informed to configure a minesweeper are wrong. Add print in case of bounds.
 - [ ] Check if there is not an error when the user select a box and the program scan the wrong box. Especially when the minesweeper is not squared.
+- [ ] Adapt the repository to well developer traditions.
