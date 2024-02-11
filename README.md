@@ -1,4 +1,5 @@
-# Minesweeper Game in C++ #
+# Minesweeper Game #
+> ### Language : C++ ###
 
 This code implements a minesweeper game both in shell and with the graphical user interface ***wxWidgets***.
 
