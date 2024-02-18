@@ -17,9 +17,9 @@ sudo apt-get install libwxgtk3.0-dev
 
 ## Usage ##
 
-1. Navigate to the **Code** directory containing the source code and the ***Makefile*** file.
+1. Navigate to the **code** directory containing the source code and the ***Makefile*** file.
 ```bash
-cd Code
+cd code
 ```
 2. Compile the minesweeper game on both shell and graphical user interface by running ***make all***. Run ***make shellGame*** to just compile the minesweeper on shell. Run ***make wxGame*** to just compile the minesweeper on graphical user interface.
 ```bash
@@ -43,10 +43,10 @@ cd ..
 ./wxGame
 ```
 
-*(Optional)* 5. Clean the repository by running ***make clean*** in the **Code** directory.
+*(Optional)* 5. Clean the repository by running ***make clean*** in the **code** directory.
 
 ```bash
-cd Code
+cd code
 make clean
 ```
 
