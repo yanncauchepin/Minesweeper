@@ -1,9 +1,12 @@
 # Minesweeper Game #
 > ### Language : C++ ###
 
-This code implements a minesweeper game both in shell and with the graphical user interface ***wxWidgets***.
+This code implements various videogames:
+- a minesweeper game both in shell and with the graphical user interface ***wxWidgets***.
 
 ## Prerequisites ##
+
+### Minesweeper ###
 
 Before running this code, ensure you have the following :
 
@@ -17,11 +20,18 @@ sudo apt-get install libwxgtk3.0-dev
 
 ## Usage ##
 
+### Minesweeper ###
+
 1. Navigate to the **code** directory containing the source code and the ***Makefile*** file.
+```bash
+cd minesweeper
+```
+
+2. Navigate to the **code** directory containing the source code and the ***Makefile*** file.
 ```bash
 cd code
 ```
-2. Compile the minesweeper game on both shell and graphical user interface by running ***make all***. Run ***make shellGame*** to just compile the minesweeper on shell. Run ***make wxGame*** to just compile the minesweeper on graphical user interface.
+3. Compile the minesweeper game on both shell and graphical user interface by running ***make all***. Run ***make shellGame*** to just compile the minesweeper on shell. Run ***make wxGame*** to just compile the minesweeper on graphical user interface.
 ```bash
 make all
 ```
@@ -31,11 +41,11 @@ make shellGame
 ```bash
 make wxGame
 ```
-3. The compiled program(s) ***shellGame*** or/and ***wxGame*** is/are now located in the parent repository.
+4. The compiled program(s) ***shellGame*** or/and ***wxGame*** is/are now located in the parent repository.
 ```bash
 cd ..
 ```
-4. Execute the compiled game on shell by running ***./shellGame***. Execute the compiled game on graphical user interface by running ***./wxGame***.
+5. Execute the compiled game on shell by running ***./shellGame***. Execute the compiled game on graphical user interface by running ***./wxGame***.
 ```bash
 ./shellGame
 ```
@@ -52,23 +62,25 @@ make clean
 
 ## Monitor ##
 
-### ShellGame ###
+### Minesweeper ###
+
+#### ShellGame ####
 
 To configure parameters for the minesweeper game in shell, the user have to inform some piece of information. In chronological order, the user have to provide :
-- ***Height*** : Integer value which indicates the height of the minesweeper game.
-- ***Width*** : Integer value which indicates the width of the minesweeper game.
-- ***Total number of mines*** : Integer value which indicates the total number of mines.
+- ***height*** : Integer value which indicates the height of the minesweeper game.
+- ***width*** : Integer value which indicates the width of the minesweeper game.
+- ***total number of mines*** : Integer value which indicates the total number of mines.
 
 Then, the user enter in iterative monitor until the end of the game.
 
 During the iterative monitor, the user have to iteratively insert :
-- ***Height*** : Integer value which indicates the height coordinate of the case.
-- ***Width*** : Integer value which indicates the width coordinate of the case.
-- ***Action*** : Boolean 0 or 1 to respectively indicate whether this action is to discover the case or flag it.
+- ***height*** : Integer value which indicates the height coordinate of the case.
+- ***width*** : Integer value which indicates the width coordinate of the case.
+- ***action*** : Boolean 0 or 1 to respectively indicate whether this action is to discover the case or flag it.
 
-The end of the game comes either with a victory condition, a failure condition or by insert the value ***Exit***, at any moment in the iterative monitor, to exit the game.
+The end of the game comes either with a victory condition, a failure condition or by insert the value ***exit***, at any moment in the iterative monitor, to exit the game.
 
-### wxGame ###
+#### wxGame ####
 
 This program run a ***wxWidgets Application*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
 
@@ -86,10 +98,12 @@ Otherwise, the user can access to various menu such as :
 
 ## To do list ##
 
+### Minesweeper ###
+
 - [ ] Add a IA tool to iteratively solve the minesweepper. More especially for the graphical user interface version.
 - [ ] Explain the victory condition and failure condition in the monitor README file.
 
-### shellGame ###
+#### shellGame ####
 
 - [ ] Test the well functioning of the program shellGame :
     - [ ] Height, Width and TotalNumberOfMines : Test the bounds of valid values.
@@ -98,7 +112,7 @@ Otherwise, the user can access to various menu such as :
 - [ ] Edit iterative monitor to include the choice mine or flag when the user insert coordinates, and handle the value 'Exit' to stop the program.
 - [ ] Translate monitor of shellGame in english.
 
-### wxGame ###
+#### wxGame ####
 
 - [ ] Test the program with various configuration and other means to identify errors to correct.
 - [ ] Correct case where value informed to configure a minesweeper are wrong. Add print in case of bounds.
