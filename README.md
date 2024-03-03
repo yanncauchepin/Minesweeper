@@ -25,7 +25,7 @@ sudo apt-get install libwxgtk3.0-dev
 
 ### Minesweeper ###
 
-1. Navigate to the **code** directory containing the source code and the ***Makefile*** file.
+1. Navigate to the **minesweeper** directory.
 ```bash
 cd minesweeper
 ```
