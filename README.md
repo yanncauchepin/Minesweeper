@@ -6,11 +6,14 @@ This code implements various videogames:
 
 ## Prerequisites ##
 
+Before running this code, ensure you have the following :
+
+- ***g++*** compiler installed on your system.
+
 ### Minesweeper ###
 
 Before running this code, ensure you have the following :
 
-- ***g++*** compiler installed on your system.
 - ***wxWidgets*** installed on your system.
 
 To install ***wxWidgets*** on **Ubuntu** :
