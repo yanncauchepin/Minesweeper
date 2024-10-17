@@ -84,9 +84,9 @@ The end of the game comes either with a victory condition, a failure condition o
 
 #### wxGame
 
-This program run a ***wxWidgets Application*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
+This program run a ***wxWidgets app*** with a initialized minesweeper game configured with a height of 10, a width of 10 and a total number of mines of 20.
 
-To  play the game, the user have to click left on boxes to discover each one of them. Once a mine can be identified, the user could click right on a box to flag it. Therefore, this chosen box can no longer be discovered until the user click right again on this same box to remove the flag. An indicator of the amount of identified mines is indicated at the bottom of the application.
+To  play the game, the user have to click left on boxes to discover each one of them. Once a mine can be identified, the user could click right on a box to flag it. Therefore, this chosen box can no longer be discovered until the user click right again on this same box to remove the flag. An indicator of the amount of identified mines is indicated at the bottom of the app.
 
 This program also handle victory and failure conditions.
 
@@ -94,7 +94,7 @@ Otherwise, the user can access to various menu such as :
 - ***Game>Restart*** or *Crtl+R* to restart the minesweeper game with the same configuration.
 - ***Game>initialized*** or *Crtl+I* to restart a minesweeper game by configure the height, the width and the total number of mines.
 - ***Game>SetSpacing*** or *Crtl+S* to modify the display of the current minesweeper game by indicating the spacing desired between boxes in both height and width.
-- ***Game>Quit*** or *Crtl+Q* to quit the minesweeper application.
+- ***Game>Quit*** or *Crtl+Q* to quit the minesweeper app.
 - ***AI>Resolve*** or *Crtl+A* to bring help to the gamer and iteratively resolve the minesweeper game. Not implemented currently.
 - ***Info>About*** to show a simple piece of information about this minesweeper game.
 
