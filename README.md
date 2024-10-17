@@ -100,4 +100,4 @@ Otherwise, the user can access to various menu such as :
 
 ----
 
-![](features_image.jpg)
+![](featured_image.jpg)
