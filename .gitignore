@@ -1,0 +1,5 @@
+shellGame
+wxGame
+code/*.o
+code/*.exe
+docker/wxWidgets-*/

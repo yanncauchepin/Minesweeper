@@ -1,4 +1,43 @@
-# Minesweeper Game
+# Minesweeper Game from Docker Image
+
+### Preqequisites
+
+### Docker Image
+
+You can access to the graphical Minesweeper game with the **docker** [image](https://hub.docker.com/repository/docker/yanncauchepin/wxminesweeper/general).
+
+```sh
+docker pull yanncauchepin/wxminesweeper:latest
+```
+
+## Usage
+
+1. The command
+
+```bash
+xhost +local:root
+```
+
+tells your X server to allow any process running as the local root user (or any local process running with root privileges) to connect and interact with your display. This is useful in containerized environments where your container runs as root and needs to display GUI output on your host.
+
+2. Run the following command to launch the graphical minesweeper through the downloaded docker image.
+```bash
+sudo docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix yanncauchepin/wxminesweeper
+```
+
+
+3. After you no longer need to allow local root access, you can restore the previous state of your X server's access control. Run:
+
+```bash
+xhost -local:root
+```
+
+This command removes the permission that was granted by xhost +local:root, thereby reverting the X server’s access control list to its prior state. Running this command ensures that local processes running as root no longer have blanket access to your display, reducing the potential risk if a compromise occurs later.
+
+
+---
+
+# Minesweeper Game from Code
 
 
 This code implements a minesweeper game both in shell and with the graphical user interface ***wxWidgets***.
