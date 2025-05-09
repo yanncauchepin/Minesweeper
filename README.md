@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="featured_image.gif" alt="" width="80%">
+</p>
+
+---
+
 # Minesweeper Game from Docker Image
 
 ### Preqequisites
@@ -136,7 +142,3 @@ Otherwise, the user can access to various menu such as :
 - ***Game>Quit*** or *Crtl+Q* to quit the minesweeper app.
 - ***AI>Resolve*** or *Crtl+A* to bring help to the gamer and iteratively resolve the minesweeper game. Not implemented currently.
 - ***Info>About*** to show a simple piece of information about this minesweeper game.
-
-----
-
-![](featured_image.jpg)
